@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+           background-color: white;
+           display: grid;
+           grid-template-columns: 145px  145px 290px ;
+           grid-template-rows: 145px 290px 290px;
+           width: 600px;
+           gap: 10px;
+           
+
+        }
+        .parent div{
+            background-color: blueviolet;
+        }
+
+        
+        #s1{
+           grid-row: 1/3;
+           grid-column:3/4;
+        }
+     
+    </style>
+</head>
+<body>
+
+    <div  class="parent">
+        <div><img src="https://www.w3schools.com/w3images/boy.jpg" alt="" height="145" width="145"></div>
+        <div><img src="https://www.w3schools.com/w3images/boy.jpg" alt="" height="145" width="145"></div>
+        <div id="s1"><img src="https://www.w3schools.com/w3images/girl_train.jpg" alt="" height="445" width="290"></div>
+        <div style="grid-column: 1/3;"><img src="https://www.w3schools.com/w3images/natureboy.jpg" alt="" height="290" width="300"></div>
+        <div style="grid-column: 1/3;"><img src="https://www.w3schools.com/w3images/closegirl.jpg" alt="" height="290" width="300"></div>
+        <div><img src="https://www.w3schools.com/w3images/girl_mountain.jpg" alt="" height="290" width="300"></div>
+         
+         
+    </div>
+    
+</body>
+</html>
